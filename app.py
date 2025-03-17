@@ -10,6 +10,7 @@ st.write("###### _This is a unit convertor app that converts units from one unit
 
 # category selected
 def cate_selec():
+     st.
         st.divider()
         category = st.selectbox("Select a category",["📏Length","⌚Time","⚖️ Weight","🌡Temperature","🏃Speed","🧪Volume"])
    
@@ -25,8 +26,7 @@ def cate_selec():
             temperature()
         elif category == "🧪Volume":
             volume()
-
-# factor function with 2 argument 1 converter name ,2 units of converter 
+ 
 def factor (header,units):   
     
     st.subheader(f'{header} Converter')   
