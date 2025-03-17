@@ -10,7 +10,6 @@ st.write("###### _This is a unit convertor app that converts units from one unit
 
 # category selected
 def cate_selec():
-     st.
         st.divider()
         category = st.selectbox("Select a category",["📏Length","⌚Time","⚖️ Weight","🌡Temperature","🏃Speed","🧪Volume"])
    
